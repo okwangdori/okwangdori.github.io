@@ -9,7 +9,7 @@
   @include breakpoint($large) {
     float: right;
 //     width: calc(100% - #{$right-sidebar-width-narrow});
-    width: 75%;
+    width: 75% !important;
     margin: auto;
 //     padding-right: $right-sidebar-width-narrow;
   }
