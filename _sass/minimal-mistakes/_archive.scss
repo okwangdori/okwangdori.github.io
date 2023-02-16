@@ -8,15 +8,15 @@
 
   @include breakpoint($large) {
     float: right;
-//     width: calc(100% - #{$right-sidebar-width-narrow});
-    width: 75% !important;
-    margin: auto;
-//     padding-right: $right-sidebar-width-narrow;
+    width: calc(100% - #{$right-sidebar-width-narrow});    
+    padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    width: 75% !important;
+    margin: auto;
+//     width: calc(100% - #{$right-sidebar-width});
+//     padding-right: $right-sidebar-width;
   }
 }
 
