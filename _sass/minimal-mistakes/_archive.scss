@@ -13,7 +13,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: 75% !important;
+    width: 75%;
     margin: auto;
 //     width: calc(100% - #{$right-sidebar-width});
 //     padding-right: $right-sidebar-width;
