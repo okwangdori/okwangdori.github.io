@@ -44,7 +44,6 @@
 }
 
 .site-title {
-  color: #37352F;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +67,7 @@
 
   .site-nav {
     margin-left: 0;
-
+    color: #37352F;
     @include breakpoint($small) {
       float: right;
     }
