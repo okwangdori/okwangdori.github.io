@@ -4,7 +4,7 @@
   </a>
 </article>
 <article class="markdown-body">
-  <h3>📙 목차</h3>
+  <h3>📗 목차</h3>
 </article>
 <b>
   <ul dir="auto">
